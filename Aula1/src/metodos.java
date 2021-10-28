@@ -14,6 +14,7 @@ public class metodos {
 		System.out.println("Numero de ocorrencias: "+ nOcorrencias(nums,180));
 		System.out.println("Repetiu? "+ hasRepeat(nums));
 		System.out.println("Elementos repetidos: "+ nroRepeat(nums));
+		System.out.println(listRepeat(nums));
 	} // fim metodo principal main()
 
 // #########################################################
@@ -52,18 +53,15 @@ public class metodos {
 
 // #########################################################
 	// Exercicio 2 questao D.
-//	public static int[] listRepeat(int[] l) {
-	public static void listRepeat(int[] l) {
+	public static int[] listRepeat(int[] l) {
+	//public static void listRepeat(int[] l) {
 		int v[] = new int [l.length];
 		for(int i = 0; i < l.length; i++) {
 			if(l[i] == l.length) {
 				v[i] = l.length;
 			}
 		}
-		
-		//for(int i = 0; i < l.length; i++) {
-			//System.out.println("==" + v[i]);
-		//}
+		return v;
 	}	
 	
 /*

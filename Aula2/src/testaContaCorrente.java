@@ -1,8 +1,6 @@
-
-public class app {
+public class testaContaCorrente {
 
 	public static void main(String[] args) {
-		double saldo_total = 0 ;
 		ContaCorrente p[] = new ContaCorrente[2];
 		
 		p[0] = new ContaCorrente(999);
@@ -16,11 +14,11 @@ public class app {
 		//p1.exibe();
 		//p1.exibe();
 		//p2.exibe();
-		for(int i=0; i < p.length; i++) {
+		
+		for (int i = 0; i < p.length; i++) {
+			System.out.println("=====================");
 			p[i].exibe();
-			saldo_total += p[i].getSaldo();
 		}
-			System.out.println("Saldo de todas as contas R$"+saldo_total);	
 	}
 	
 }

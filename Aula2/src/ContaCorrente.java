@@ -10,7 +10,7 @@ public class ContaCorrente {
 	
 	public void exibe(){
 		System.out.println("Conta: "+ this.getNroConta());
-		System.out.println("Saldo: "+ this.getSaldo());
+		System.out.println("Saldo: R$"+ this.getSaldo());
 	}
 
 	//metodos
