@@ -12,9 +12,9 @@ public class app {
 		
 		//System.out.println(agenda.buscaNumero("k"));
 		//System.out.println(agenda.tamanho());
-		//agenda.remover("Ana");
+		agenda.remover("Ana");
 		
-		//System.out.println(agenda.buscaNumero("Ana"));
+		System.out.println(agenda.buscaNumero("Ana"));
 		
 		
 	}
