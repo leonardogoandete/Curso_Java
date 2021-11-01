@@ -14,7 +14,6 @@ public class testaContaCorrente {
 		//p1.exibe();
 		//p1.exibe();
 		//p2.exibe();
-		
 		for (int i = 0; i < p.length; i++) {
 			System.out.println("=====================");
 			p[i].exibe();

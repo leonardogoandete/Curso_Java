@@ -31,9 +31,26 @@ public class CadastroDeContas {
 	} // metodo getConta()
 /*
 	public double getSaldoTotal() {
-			somador = 
-		return somador;
+		double cont = 0;
+		for (int i = 0; i < nroContas; i++) {
+			cont = cad[i].getSaldo();
+		}	
+		return cont;
 	} // metodo getSaldoTotal()
-*/
+	
+	public int qtdContas(double noMinimo) {
+        int cont = 0;
+        for ( int i = 0; i < nroContas; i++) {
+           double tot = cad[i].getSaldo();
+           if (tot >= noMinimo){
+               cont++;
+               System.out.println("contas com saldo Maior ou igual ao inserido é de " + cont);
+           } else {
+               System.out.println("contas com saldo Maior ou igual ao inserido é de " + cont);
+           }
+        }
+       return cont;
+    }
+    */
 }
 
