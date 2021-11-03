@@ -14,7 +14,7 @@ private int numero;
 	
 	public void exibeTela() {
 		System.out.println("Numero fornecido:"+numero);
-		for (int i = 0; i < numero; i++) {
+		for (int i = 1; i < numero+1; i++) {
 			System.out.println(i+"-"+getTexto());
 		}
 	}

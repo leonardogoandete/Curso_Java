@@ -8,7 +8,8 @@ public class nOcorrenciaPalavras {
 		//meutexto.setTexto("abcd abc aabc baa abcaa", "aa");
 		
 		//meutexto.exibeTela();
-		meutexto.numOcorrencia("abcd abc aabc baa abcaa", "aa");
+		meutexto.numOcorrencia("abcd abc aabc baa abcaa");
+		
 	}
 
 }
