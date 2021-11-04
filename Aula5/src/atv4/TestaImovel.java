@@ -3,12 +3,8 @@ package atv4;
 public class TestaImovel {
 
 	public static void main(String[] args) {
-		int tipo = 2;
-		
-		
-		//Novo imovelNovo = new Novo();
-		//Velho imovelVelho = new Velho();
-		
+		int tipo = 1;
+			
 		if (tipo == 1) {
 			Novo casa = new Novo();
 			System.out.println(casa.toString());
@@ -16,10 +12,5 @@ public class TestaImovel {
 			Velho casa = new Velho();
 			System.out.println(casa.toString());
 		}
-		
-		
-		
-		//System.out.println(imovelNovo.toString());
-		//System.out.println(imovelVelho.toString());
 	}
 }
