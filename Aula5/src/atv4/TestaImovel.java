@@ -3,7 +3,7 @@ package atv4;
 public class TestaImovel {
 
 	public static void main(String[] args) {
-		int tipo = 1;
+		int tipo = 2;
 			
 		if (tipo == 1) {
 			Novo casa = new Novo();
