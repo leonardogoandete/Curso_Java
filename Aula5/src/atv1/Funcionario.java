@@ -1,10 +1,10 @@
 package atv1;
 
 public class Funcionario {
-	private int matricula;
+	protected int matricula;
 	
 	public void exibeDados() {
-		
+		System.out.println(getMatricula());
 	}
 
 	public int getMatricula() {
