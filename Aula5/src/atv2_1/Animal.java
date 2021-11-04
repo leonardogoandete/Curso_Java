@@ -1,4 +1,4 @@
-package atv2;
+package atv2_1;
 
 public class Animal {
 	private String nome, raca;
