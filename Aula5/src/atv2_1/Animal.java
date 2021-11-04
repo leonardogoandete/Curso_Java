@@ -14,6 +14,9 @@ public class Animal {
 	public String caminha() {
 		return "caminha";		
 	}
+	public void fala() {
+		System.out.println("fala de animal");
+	}
 	
 // getters e setters
 	public String getNome() {
@@ -32,7 +35,6 @@ public class Animal {
 		this.raca = raca;
 	}
 
-	@Override
 	public String toString() {
 		return "Nome= " + nome +
 				"\nRaca= " + raca + 
