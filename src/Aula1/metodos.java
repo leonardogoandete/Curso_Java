@@ -19,8 +19,6 @@ public class metodos {
 		System.out.println("\nNumero de ocorrencias: "+ nOcorrencias(nums,180));
 		System.out.println("Repetiu? "+ hasRepeat(nums));
 		System.out.println("Elementos repetidos: "+ nroRepeat(nums));
-		System.out.println(listRepeat(nums));
-		//System.out.println("Uniao:"+union(nums,nums2));
 	} // fim metodo principal main()
 
 // #########################################################
