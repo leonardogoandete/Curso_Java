@@ -42,7 +42,6 @@ public class metodos {
 		return false;
 	} //fim hasRepeat
 
-
 // #########################################################
 	// Exercicio 2 questao C.
 	public static int nroRepeat(int[] l) {
